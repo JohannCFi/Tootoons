@@ -1,1 +1,2 @@
-echo "pre-commit (temporary noop, will be replaced in Task 1.5)"
+pnpm lint-staged
+pnpm typecheck
