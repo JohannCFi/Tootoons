@@ -60,6 +60,9 @@ importers:
       '@playwright/test':
         specifier: ^1.60.0
         version: 1.60.0
+      '@portabletext/types':
+        specifier: ^4.0.2
+        version: 4.0.2
       '@sanity/types':
         specifier: ^5.26.0
         version: 5.26.0(@types/react@19.2.15)

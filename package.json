@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
+    "@portabletext/types": "^4.0.2",
     "@sanity/types": "^5.26.0",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
