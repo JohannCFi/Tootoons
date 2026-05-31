@@ -5,6 +5,8 @@ test("header présente nav principale et icônes utilitaires", async ({
 }) => {
   await page.goto("/");
   await expect(page.getByRole("link", { name: "Tootoons" })).toBeVisible();
-  await expect(page.getByRole("link", { name: /boutique/i })).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Boutique", exact: true }),
+  ).toBeVisible();
   await expect(page.getByRole("link", { name: /panier/i })).toBeVisible();
 });
